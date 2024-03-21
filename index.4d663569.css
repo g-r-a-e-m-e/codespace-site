@@ -1,10 +1,9 @@
-@import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
 html, body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: "Monospace", monospace;
   overflow-x: hidden;
 }
 
@@ -40,14 +39,16 @@ section img.background {
 }
 
 h1 {
+  color: #fff;
   margin: 0;
-  font-family: Cormorant Garamond, serif;
+  font-family: "Monospace", monospace;
   font-size: 7rem;
   font-weight: 400;
   line-height: .8;
 }
 
 h2 {
+  color: #fff;
   margin: 0;
   padding-top: 1rem;
   font-size: 2rem;
@@ -55,12 +56,14 @@ h2 {
 }
 
 h3 {
+  color: #fff;
   margin: 0;
   font-size: 1.25rem;
   font-weight: 400;
 }
 
 p {
+  color: #fff;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 300;
@@ -68,10 +71,12 @@ p {
 }
 
 p.large {
+  color: #fff;
   font-size: 24px;
 }
 
 p.small {
+  color: #fff;
   font-size: 15px;
 }
 
@@ -80,11 +85,12 @@ hr {
 }
 
 li {
+  color: #fff;
   line-height: 1.7;
 }
 
 li::marker {
-  color: #4e567e;
+  color: #fff;
 }
 
 a {
