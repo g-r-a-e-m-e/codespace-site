@@ -24,7 +24,7 @@ const imageAltText = "An image of the Milky Way galaxy.";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am a data scientist and am studying Astrophysics at Old Dominion University. Thank you for visiting my site.";
+  "I am a data scientist and am currently studying Astrophysics at Old Dominion University. Thank you for visiting my site.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +32,16 @@ const description =
  */
 const skillsList = [
   "Machine learning",
-  "Statistical analysis",
+  "Cloud computing",
   "Python programming",
-  "R programming",
+  "Data visualization",
 ];
 
+const educationList = [
+  "B.S. Astrophysics, Old Dominion University, 2025 (exp.)",
+  "M.S. Business Analytics, College of William and Mary, 2021",
+  "B.S. Business Analytics/Economics, Old Dominion University, 2019",
+];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
@@ -51,23 +56,24 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
+          backgroundColor: "transparent",
+          width: "80%",
+          padding: "1rem",
+          margin: "2rem auto",
+          textAlign: "left",
         }}
       >
         <h2>About Me</h2>
-        <p className="large">{description}</p>
+        <p>{description}</p>
+        <p>{detailOrQuote}</p>
         <hr />
+        <h2>Skills</h2>
         <ul
           style={{
             textAlign: "left",
             columns: 2,
-            fontSize: "1.25rem",
+            fontSize: "1rem",
             margin: "2rem 3rem",
-            gap: "3rem",
           }}
         >
           {skillsList.map((skill) => (
@@ -75,7 +81,20 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <h2>Education</h2>
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 1,
+            fontSize: "1rem",
+            margin: "1rem",
+          }}
+        >
+          {educationList.map((education) => (
+            <li key={education}>{education}</li>
+          ))}
+        </ul>
+        <hr />
       </div>
     </section>
   );

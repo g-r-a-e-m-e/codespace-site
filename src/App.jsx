@@ -27,7 +27,7 @@ const siteProps = {
   name: "Graeme Benson",
   title: "Data Scientist | Astrophysics Student",
   email: "",
-  gitHub: "https://github.com/g-r-a-e-m-e",
+  gitHub: "g-r-a-e-m-e",
   instagram: "",
   linkedIn: "",
   medium: "",

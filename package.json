@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Graeme Benson Codespace Site",
   "source": "src/index.html",
-  "homepage": "http://g-r-a-e-m-e.github.io/codespace-site",
+  "homepage": "http://g-r-a-e-m-e.github.io",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://g-r-a-e-m-e.github.io/codespace-site'",
+    "build-gh": "parcel build --public-url 'http://g-r-a-e-m-e.github.io'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },

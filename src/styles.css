@@ -2,11 +2,9 @@
 * CSS file to hold styles that apply across the application
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
-
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Monospace", monospace;
   height: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -46,11 +44,12 @@ section img.background {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Monospace", monospace;
   font-size: 7rem;
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
+  color: #ffffff;
 }
 
 h2 {
@@ -58,12 +57,14 @@ h2 {
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
+  color: #ffffff;
 }
 
 h3 {
   font-weight: 400;
   font-size: 1.25rem;
   margin: 0;
+  color: #ffffff;
 }
 
 p {
@@ -71,14 +72,17 @@ p {
   line-height: 1.5;
   margin-bottom: 0;
   font-weight: 300;
+  color: #ffffff;
 }
 
 p.large {
   font-size: 24px;
+  color: #ffffff;
 }
 
 p.small {
   font-size: 15px;
+  color: #ffffff;
 }
 
 hr {
@@ -87,10 +91,11 @@ hr {
 
 li {
   line-height: 1.7;
+  color: #ffffff;
 }
 
 li::marker {
-  color: #4e567e;
+  color: #ffffff;
 }
 
 a {
