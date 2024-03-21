@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/max-mckinnon-c9OCWLka764-unsplash";
+import image from "../images/max-mckinnon-c9OCWLka764-unsplash.jpeg";
 
 const imageAltText = "An image of the Milky Way galaxy.";
 
