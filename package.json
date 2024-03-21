@@ -1,9 +1,9 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "graeme-benson-codespace-site",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Graeme Benson Codespace Site",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://github.com/g-r-a-e-m-e.github.io/codespace-site",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
