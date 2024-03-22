@@ -58,8 +58,6 @@ const About = () => {
         style={{
           backgroundColor: "transparent",
           width: "70%",
-          padding: "1rem",
-          margin: "2rem auto",
           textAlign: "left",
         }}
       >
@@ -73,7 +71,6 @@ const About = () => {
             textAlign: "left",
             columns: 2,
             fontSize: "1rem",
-            margin: "2rem 3rem",
           }}
         >
           {skillsList.map((skill) => (
@@ -87,7 +84,6 @@ const About = () => {
             textAlign: "left",
             columns: 1,
             fontSize: "1rem",
-            margin: "1rem",
           }}
         >
           {educationList.map((education) => (

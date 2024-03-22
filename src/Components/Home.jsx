@@ -26,8 +26,7 @@ const Home = ({ name, title }) => {
         style={{
           position: "absolute",
           top: "10rem",
-          left: "5rem",
-          width: "25rem",
+          width: "70%",
         }}
       >
         <h1>{name}</h1>
