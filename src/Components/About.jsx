@@ -59,6 +59,8 @@ const About = () => {
           backgroundColor: "transparent",
           width: "70%",
           textAlign: "left",
+          padding: "1rem",
+          margin: "2rem auto",
         }}
       >
         <h2>About Me</h2>

@@ -27,6 +27,7 @@ const Home = ({ name, title }) => {
           position: "absolute",
           top: "10rem",
           width: "70%",
+          left: "5rem",
         }}
       >
         <h1>{name}</h1>
