@@ -1,7 +1,5 @@
 /**
- * Application component
- *
- * To contain application wide settings, routes, state, etc.
+ * Application
  */
 
 import React from "react";
@@ -10,7 +8,6 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-// import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
 
@@ -33,6 +30,9 @@ const siteProps = {
 const primaryColor = "#000000";
 const secondaryColor = "#000000";
 
+/**
+ * Build application
+ */
 const App = () => {
   return (
     <div id="main">
