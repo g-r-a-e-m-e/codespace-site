@@ -99,7 +99,7 @@ const Footer = (props) => {
           </a>
         )}
         {bluesky && (
-          <a href={`https://bsky.social/profile/${bluesky}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://bsky.app/profile/${bluesky}`} target="_blank" rel="noopener noreferrer">
             <img src={blueskyIcon} alt="Bluesky" className="socialIcon" />
           </a>
         )}
