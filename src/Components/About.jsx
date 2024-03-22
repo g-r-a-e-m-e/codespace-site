@@ -57,7 +57,7 @@ const About = () => {
       <div
         style={{
           backgroundColor: "transparent",
-          width: "80%",
+          width: "70%",
           padding: "1rem",
           margin: "2rem auto",
           textAlign: "left",
