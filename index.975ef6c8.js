@@ -27208,7 +27208,7 @@ const About = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     backgroundColor: "transparent",
-                    width: "80%",
+                    width: "70%",
                     padding: "1rem",
                     margin: "2rem auto",
                     textAlign: "left"
