@@ -27681,7 +27681,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         columnNumber: 11
                     }, undefined),
                     bluesky && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://bsky.social/profile/${bluesky}`,
+                        href: `https://bsky.app/profile/${bluesky}`,
                         target: "_blank",
                         rel: "noopener noreferrer",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
