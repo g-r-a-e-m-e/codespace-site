@@ -25,6 +25,7 @@ const siteProps = {
   twitter: "",
   youTube: "",
   bluesky: "graeme.space",
+  mastodon: "@g_r_a_e_m_e"
 };
 
 const primaryColor = "#000000";

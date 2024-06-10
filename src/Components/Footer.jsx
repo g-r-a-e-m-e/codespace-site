@@ -14,6 +14,7 @@ import blueskyIcon from "../images/socials/bluesky.svg";
 import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
+import mastodonIcon from "../images/socials/mastodon.svg"
 
 /**
  * 💡 Learning resources
@@ -30,6 +31,7 @@ const Footer = (props) => {
     name,
     primaryColor,
     bluesky,
+    mastodon
   } = props;
 
   return (
@@ -76,6 +78,11 @@ const Footer = (props) => {
             <img src={blueskyIcon} alt="Bluesky" className="socialIcon" />
           </a>
         )}
+        {mastodon && (
+          <a href={`https://mastodon.social/${mastodon}`} target="_blank" rel="noopener noreferrer">
+            <img src={mastodonIcon} alt="mastodon" className="socialIcon" />
+          </a>
+        )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
@@ -95,6 +102,7 @@ Footer.propTypes = {
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
   bluesky: PropTypes.string,
+  mastodon: PropTypes.string
 };
 
 export default Footer;
